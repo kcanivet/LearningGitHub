@@ -9,6 +9,8 @@ The key relationships you need to realize before you get to a dashboard is that 
 Without a report you can't go straight to a dashboard.  What you summarize and choose as a chart for a report does impact what is available for your dashboard.
 
 ### The Salesforce Report
+To start a report you can go to your reports list and you will *likely* find a *New Report* button in the upper right of the menu card.  I say likely because you might not have permission based on your set up or the menu has been customized.  
+To start a report there are many default templates to choose from based on the type of report you would like to build. From there you can customize the report, adding or removing columns, or changing the order.  These tasks are accomplished by going into `Edit` from the button in the upper right.  
 
 
   1. images from reports
