@@ -31,7 +31,9 @@ Switching over to the `Filter` view, this is where you can limit or filter the d
 
 [Dashboard3]: https://github.com/kcanivet/LearningGitHub/blob/main/Salesforce_Report_edit1_chart.jpg "Report Chart Settings"  
 
-The first thing needed to build a chart on a Salesforce report is to summarize or group something.  For these reports I chose to group by province.  Since MitoCanada is a charity that started in Alberta and grew across the country, it was important to see where the donations were coming from.  This will allow the charity to plan activities and to know where to raise awareness.  As I began building the reports and ultimately the Dashboard, there was a data issue with the province data field that needed to be addressed, so this was another reason that I went forward with this grouping.  [Chart Options]
+The first thing needed to build a chart on a Salesforce report is to summarize or group something.  For these reports I chose to group by province.  Since MitoCanada is a charity that started in Alberta and grew across the country, it was important to see where the donations were coming from.  This will allow the charity to plan activities and to know where to raise awareness.  
+As I began building the reports and ultimately the Dashboard, there was an issue with the province data that needed to be addressed.  Like any data endevor, data cleaning added a significant amount of time to the project. The province was particularily problematic.  Loading data into salesforce from multiple sources without any standardization or anyone managing the data led to provinces being entered as the short form (AB), the long form (Alberta), or somewhere in between (Alta.).  The data cleaning process is a potential article on its own...  
+[Chart Options]
 
   1. images from reports
   2. Intro
