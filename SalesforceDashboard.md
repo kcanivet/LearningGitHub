@@ -31,9 +31,15 @@ Switching over to the `Filter` view, this is where you can limit or filter the d
 
 [Dashboard3]: https://github.com/kcanivet/LearningGitHub/blob/main/Salesforce_Report_edit1_chart.jpg "Report Chart Settings"  
 
-The first thing needed to build a chart on a Salesforce report is to summarize or group something.  For these reports I chose to group by province and total the amount of donations (overall and by group).  Since MitoCanada is a charity that started in Alberta and grew across the country, it was important to see where the donations were coming from.  This will allow the charity to plan activities and to know where to raise awareness.  
-As I began building the reports and ultimately the Dashboard, there was an issue with the province data that needed to be addressed.  Like any data endevor, data cleaning added a significant amount of time to the project. The province was particularily problematic.  Loading data into salesforce from multiple sources without any standardization or anyone managing the data led to provinces being entered as the short form (AB), the long form (Alberta), or somewhere in between (Alta.).  The data cleaning process is a potential article on its own...  
-Depending on the type of data and the grouping, you get a few standard chart options
+The first thing needed to build a chart on a Salesforce report is to summarize or group something.  For these reports I chose to group by province and total the amount of donations (overall and by group).  Since MitoCanada is a charity that started in Alberta and grew across the country, it was important to see where the donations were coming from.  This will allow the charity to plan activities and to know where to raise awareness. 
+Depending on the type of data and the grouping, you get a few standard chart options.  I couldn't find a way to customize the colours, but the default options where sufficient.  As I mentioned earlier, your choices here do impact the final dashboard.
+
+#### Data Cleaning or the visual... which comes first?
+As I began building the reports and ultimately the Dashboard, there was an issue with the province data that needed to be addressed.  Like any data endevor, data cleaning added a significant amount of time to the project. The province was particularily problematic.  Loading data into salesforce from multiple sources without any standardization or anyone managing the data led to provinces being entered as the short form (AB), the long form (Alberta), or somewhere in between (Alta.).  Although I noticed the multiple versions of the province names inspecting the raw data, building the chart and visualizing the data helped to show how widespread the issue was.  With data analytics there is usually an itterational process between the data and the visual that represents it.  Tweaking one impacts the other and around it goes.  The data cleaning process with Salesforce is a potential article on its own...  *(Insert Link to Potential future article here ;P )*  
+
+## The Dashboard
+
+
 
   1. images from reports
   2. Intro
