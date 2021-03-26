@@ -1,6 +1,6 @@
 # Creating a Salesforce Dashboard
 
-In my volunteer data work, I've had the opportunity to work with Salesforce.  Prior to this I have never used Salesforce.  Given the fact that Salesforce occupies about 1/5th of the CRM (Customer Relationship Management) market with over 150,000 companies, you will probably encounter it at some point.  Salesforce checks all the boxes for a modern service but launched in 1999!  It was one of the first SaaS (Software as a Service) and can also claim to be a PaaS (Platform as a Service) and DBaaS (Database as a Service).  Under the hood, Salesforce uses Oracle as a primary database structure with a few other things in the mix.  Salesforce has also done a great job opening up an app marketplace for developers to build applications that work with Salesforce in a variety of ways, making the product almost infinitely expandable.
+In my volunteer data work, I've had the opportunity to work with Salesforce.  Prior to this I have never used it.  Given the fact that Salesforce occupies about 1/5th of the CRM (Customer Relationship Management) market with over 150,000 clients, you will probably encounter it at some point.  Salesforce checks all the boxes for a modern service but launched in 1999!  It was one of the first SaaS (Software as a Service) providers and can also claim to be a PaaS (Platform as a Service) and DBaaS (Database as a Service).  Under the hood, Salesforce uses Oracle as a primary database structure with a few other things in the mix.  Salesforce has also done a great job opening up an app marketplace for developers to build applications that work with Salesforce in a variety of ways, making the product almost infinitely expandable.
 
 ## The keys to building a dashboard
 
@@ -31,7 +31,7 @@ Switching over to the `Filter` view, this is where you can limit or filter the d
 
 [Dashboard3]: https://github.com/kcanivet/LearningGitHub/blob/main/Salesforce_Report_edit1_chart.jpg "Report Chart Settings"  
 
-The first thing needed to build a chart on a Salesforce report is to summarize or group something.  For these reports I chose to group by province and total the amount of donations (overall and by group).  Since MitoCanada is a charity that started in Alberta and grew across the country, it was important to see where the donations were coming from.  This will allow the charity to plan activities and to know where to raise awareness. 
+The first thing needed to build a chart on a Salesforce report is to summarize or group something.  For these reports I chose to group by province and total the amount of donations (overall and by group).  With a growing charitable organization, it was important to see where the donations were coming from.  This will allow the charity to plan activities and to know where to raise awareness. 
 Depending on the type of data and the grouping, you get a few standard chart options.  I couldn't find a way to customize the colours, but the default options where sufficient.  As I mentioned earlier, your choices here do impact the final dashboard.
 
 #### Data Cleaning or the visual... which comes first?
